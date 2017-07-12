@@ -1,18 +1,33 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
 header{
   background-image: url('../images/banner.jpg');
-x  background-position:center;
+  background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+.container-fluid{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.text-bold{
+  font-weight: bold;
 }
 .flex{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.name::before,
-.name::after{
-  content: "";
-  width: 100%;
-  margin: 10px;
-  background-size: red;
-  z-index: 1000;
-  height: 1px;
+.height{
+  height: 90vh;
+}
+.name{
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  padding: 7px;
 }
