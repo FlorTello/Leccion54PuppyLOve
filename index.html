@@ -26,15 +26,16 @@
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/materialize.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <header class="parallax-container white-text">
-    <a href="#" data-activates="slide-out" class="button-collapse right">Menu <i class="material-icons">menu</i></a>
-    <div class="container">
+  <header class="parallax-container white-text" id="home">
+    <a href="#" data-activates="slide-out" class="button-collapse right white-text">Menu <i class="material-icons">menu</i></a>
+    <div class="container flex">
       <div class="row center">
-        <h2 class="name white-text">PUPPY LOVE</h2>
+        <h2 class="col s6 offset-s3 name white-text">PUPPY LOVE</h2>
       </div>
       <div class="row center">
         <p>ESTAMOS AQUÍ PARA LOS CACHORROS <br>
@@ -49,28 +50,18 @@
       </div>
     </div>
 
-    <ul id="slide-out" class="side-nav teal lighten-2">
-      <li><div class="user-view">
-        <a href="#" class="close right"><i class="material-icons">close</i></a>
-        <div class="background">
-          <img src="images/office.jpg">
-        </div>
-        <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
-        <a href="#!name"><span class="white-text name">John Doe</span></a>
-        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-      </div></li>
-      <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-      <li><a href="#!">Second Link</a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="subheader">Subheader</a></li>
-      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    <ul id="slide-out" class="side-nav teal lighten-2 white-text">
+      <li><a class="white-text" href="#home">HOME</a></li>
+      <li><a class="white-text" href="#adopta">ADOPCIÓN</a></li>
+      <li><a class="white-text" href="#dona">DONACIÓN</a></li>
+      <li><a class="white-text" href="#information">INFORMACIÓN</a></li>
+      <li><a class="white-text" href="#contacto">CONTACTO</a></li>
     </ul>
   </header>
-  <section class="section teal lighten-2 white-text">
+  <section class="box1 section flex teal lighten-2 white-text" id="adopta">
     <div class="container">
       <div class="row center">
-        <h5 class="text-bold">SON EXCELENTES COMPAÑEROS <br>
-        ¡TENEMOS MUCHOS DE ELLOS QUE ESPERAN CONOCERTE!</h5>
+        <h5>!TENEMOS MUCHOS DE ELLOS QUE ESPERAN CONOCERTE!</h5>
         <p>Nosotros te ayudaremos a encontrar a un puppy love que sea compatible con tu estilo de vida. <br>
         ¡Visita nuestro centro de adopciones para encontrar a un pequeño amigo y mucho amor!</p>
       </div>
@@ -84,7 +75,7 @@
       </div>
     </div>
   </section>
-  <section class="blue-grey darken-4">
+  <section class="blue-grey darken-4" id="information">
     <div class="container-fluid">
       <div class="row blue-grey darken-4">
         <div class="col s12 l5 ">
@@ -115,7 +106,7 @@
       </div>
     </div>
   </section>
-  <section class="section indigo lighten-1 white-text">
+  <section class="section indigo lighten-1 white-text" id="rescata">
     <div class="container">
       <div class="row center">
         <h4>SON EXCELENTES COMPAÑEROS</h4>
@@ -181,13 +172,17 @@
             <a href="" class="btn col s7 red">ADOPTE</a>
           </div>
           <div class="row">
-            <a href="" class="btn col s7 default">ADOPTE</a>
+            <a href="" class="btn col s7 default">LEER MAS</a>
           </div>
         </div>
       </div>
     </div>
     <footer class="social page-footer center">
-
+      <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-fa-envelope-o" aria-hidden="true"></i></a>
     </footer>
   </section>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

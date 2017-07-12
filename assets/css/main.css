@@ -20,10 +20,12 @@ header{
 }
 .flex{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  height: 90vh;
 }
-.height{
+.box1{
+  line-height: 5;
   height: 90vh;
 }
 .name{
@@ -43,7 +45,11 @@ header{
   justify-content: center;
 }
 .social{
-background: rgba(62, 61, 64, 0.9);
-height: 40vh;
-background-position: top;
+  background: rgba(62, 61, 64, 0.9);
+  height: 50vh;
+  background-position: center;
+}
+.social a{
+  margin: 10px;
+  color: white;
 }
