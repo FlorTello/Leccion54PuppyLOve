@@ -31,3 +31,19 @@ header{
   border-bottom: 2px solid;
   padding: 7px;
 }
+.footer{
+  background-image: url('../images/banner.jpg');
+  background-position:center;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.social{
+background: rgba(62, 61, 64, 0.9);
+height: 40vh;
+background-position: top;
+}
